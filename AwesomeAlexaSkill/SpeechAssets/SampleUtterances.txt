@@ -1,0 +1,7 @@
+﻿HelloOnvio say hello
+HelloOnvio hello
+HelloOnvio say hi
+HelloOnvio how are you
+
+AMAZON.HelpIntent assistance needed please
+AMAZON.helpIntent i need assistance
