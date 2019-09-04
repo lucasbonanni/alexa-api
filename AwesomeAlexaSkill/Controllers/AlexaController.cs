@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System;
+using System.Web.Http;
 
 namespace AwesomeAlexaSkill.Controllers
 {
@@ -14,10 +15,19 @@ namespace AwesomeAlexaSkill.Controllers
         [HttpPost,Route("api/alexa/awesome")]
         public dynamic AwesomeAlexaSkill(dynamic request)
         {
+            //app id verification
+
             //if(request.Session.Application.ApplicationId != appId)
             //{
             //    throw new HttpResponseException(System.Net.HttpStatusCode.BadRequest);
             //}
+
+            //seconds request verification
+
+            //var totalSeconds = (DateTime.UtcNow - request.Request.Timestamp).TotalSeconds;
+            //if(totalSeconds <= 0 || totalSeconds > 150)
+            //    throw new HttpResponseException(System.Net.HttpStatusCode.BadRequest);
+
 
             return new
             {
