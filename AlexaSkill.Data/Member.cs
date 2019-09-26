@@ -20,7 +20,7 @@ namespace AlexaSkill.Data
             this.Requests = new HashSet<Request>();
         }
     
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string AlexaUserId { get; set; }
         public int RequestCount { get; set; }
         public System.DateTime LastRequestDate { get; set; }

@@ -15,7 +15,7 @@ namespace AlexaSkill.Data
     public partial class Request
     {
         public int Id { get; set; }
-        public string MemberId { get; set; }
+        public int MemberId { get; set; }
         public string SessionId { get; set; }
         public string AppId { get; set; }
         public string RequestId { get; set; }
