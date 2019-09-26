@@ -28,5 +28,7 @@ namespace AlexaSkill.Data
         public string Type { get; set; }
         public string Reason { get; set; }
         public System.DateTime DateCreated { get; set; }
+    
+        public virtual Member Member { get; set; }
     }
 }

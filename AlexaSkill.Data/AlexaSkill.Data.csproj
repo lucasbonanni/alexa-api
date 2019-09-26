@@ -77,6 +77,8 @@
     <Compile Include="Request.cs">
       <DependentUpon>alexaSkillDataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Request.partial.cs" />
+    <Compile Include="Requests.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="alexaSkillDataModel.edmx">

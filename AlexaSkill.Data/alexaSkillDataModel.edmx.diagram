@@ -5,8 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="d3908ff8eda74c5d9871fe0e336c7cfd" Name="Diagram1">
-        <EntityTypeShape EntityType="AwesomeAlexaSkillModel.Member" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AwesomeAlexaSkillModel.Request" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AwesomeAlexaSkillModel.Member" Width="1.5" PointX="0.75" PointY="1.875" />
+        <EntityTypeShape EntityType="AwesomeAlexaSkillModel.Request" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="AwesomeAlexaSkillModel.FK_Request_Member" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
